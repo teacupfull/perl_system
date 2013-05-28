@@ -1,0 +1,6 @@
+open FILE, "C:/Users/zjiang/Documents/GitHub/perl_system/data/file_1" or die $!;
+
+ while (<FILE>)
+ {
+    print $_;
+ }
